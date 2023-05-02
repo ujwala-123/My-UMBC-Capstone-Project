@@ -32,7 +32,7 @@ Quarter            object
 
 In this dataset, the crashes data is taken vaious counties in Maryland such as "Prince George's", 'Worcester', 'Montgomery', 'Frederick', 'Calvert', 'Baltimore', 'Baltimore City', 'Washington', 'Howard','Carroll', 'Harford', 'Charles', 'Anne Arundel', 'Somerset', "St. Mary's", 'Dorchester', 'Garrett', "Queen Anne's", 'Kent','Wicomico', 'Caroline', 'Allegany', 'Cecil', 'Talbot'. 
 
-## Goal: My goal is to predict whether the person is severely injured or not/with minor injuries.
+## Goal: My goal is to predict whether the person is injured or not.
 Here, I am categorizing No Injury, Non-incapacitating Injury as minorly injured and Incapacitating/Disabled Injury, Possible Incapacitating Injury, Non-incapacitating Injury, Fatal Injury as severely injured.
 Features to predict this are: Weather, which quater of the year, road surface conditions, road type, etc.,
 
