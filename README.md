@@ -63,4 +63,10 @@ Overall_Accuracy - 0.8025
 3. Integrated the machine learning model into the web page.
 4. Defined a function to predict whether a person is injured or not.
 
+##### PPT Link
+https://docs.google.com/presentation/d/17EJoGi5BQColZlH2-Ey9Z-YTdrFXzi4u/edit?usp=share_link&ouid=102656629508192105676&rtpof=true&sd=true 
+
+##### Youtube Link
+https://youtu.be/iIKE01TZOtI
+
 
