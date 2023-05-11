@@ -45,7 +45,7 @@ Predicting the severity of the injury after the accident: This project aims to d
 
 ### Data Visualization using Tableau
 1. Visualized data using Tableau.
-2. Link for my Tableau public account is 3. https://public.tableau.com/app/profile/ujwala.namineni1131 
+2. Link for my Tableau public account is https://public.tableau.com/app/profile/ujwala.namineni1131 
 3. The frequency of accidents is influenced by various factors such as road surface conditions, weather conditions, county, and road division type. 
 
 ### Created Machine learning model using Microsoft Azure
