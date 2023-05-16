@@ -68,7 +68,7 @@ From the visualizations,
 5. The average age, accident quarter, and speed limit have little to no effect on the severity or frequency of vehicle crashes.
 
 ### Created Machine learning model using Microsoft Azure
-In this project, created machine learning models using Azure Machine Learning model Studio, including multi-class Logistic Regression, Decision Tree, Boosted Decision Tree, and Random Forest, were used to develop machine learning models. 
+In this project, created machine learning models using Azure Machine Learning Studio, including multi-class Logistic Regression, Decision Tree, Boosted Decision Tree, and Random Forest, were used to develop machine learning models. 
 For example,
 The Boosted Decision Tree algorithm has accuracy of 77.60%.
 The obtained metrics are:\
@@ -81,7 +81,7 @@ Overall_Accuracy - 0.7760
 ![Screenshot (160)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/17010273-bb2e-48b2-ac0c-0777b8f9dce8)
 
 
-The logistic regression model obtained the highest accuracy of 80.2% among these models.
+The logistic regression model obtained the highest accuracy of 80.2% among these models.\
 The obtained metrics are:\
 Macro_Precision - 0.3648\
 Macro_Recall - 0.2316\
