@@ -75,22 +75,22 @@ From the visualizations,
 In this project, created machine learning models using Azure Machine Learning model Studio, including multi-class Logistic Regression, Decision Tree, Boosted Decision Tree, and Random Forest, were used to develop machine learning models. 
 For example,
 The Boosted Decision Tree algorithm has accuracy of 77.60%.
-The obtained metrics are:
-Macro_Precision - 0.2743
-Macro_Recall - 0.2138
-Micro_Precision - 0.7760
-Micro_Recall - 0.7760
+The obtained metrics are:\
+Macro_Precision - 0.2743\
+Macro_Recall - 0.2138\
+Micro_Precision - 0.7760\
+Micro_Recall - 0.7760\
 Overall_Accuracy - 0.7760
 
 ![Screenshot (160)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/17010273-bb2e-48b2-ac0c-0777b8f9dce8)
 
 
 The logistic regression model obtained the highest accuracy of 80.2% among these models.
-The obtained metrics are:
-Macro_Precision - 0.3648
-Macro_Recall - 0.2316
-Micro_Precision - 0.8025
-Micro_Recall - 0.8025
+The obtained metrics are:\
+Macro_Precision - 0.3648\
+Macro_Recall - 0.2316\
+Micro_Precision - 0.8025\
+Micro_Recall - 0.8025\
 Overall_Accuracy - 0.8025
 
 ![Screenshot (158)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/4d5ffd4a-2315-4b90-a05e-2800118d61ae)
@@ -109,5 +109,7 @@ Developed machine learning models, especially logistic regression model with 80.
 Thereby, these insights can inform targeted interventions and policies designed to reduce accidents and through web app, people enhance their knowledge of the potential severity of injuries resulting from vehicle crashes in Maryland.
 
 ### Future Scope
-Develop web application using Azure web services for more scalability, reliability and ability to integrate with other Azure services.
+1. Building a machine learning model with more accuracy by tuning hyperparameters.
+2. Developing web application using Azure web services for more scalability, reliability and ability to integrate with other Azure services.
+3. Developing a mobile application for real-time prediction and alerts.
 
