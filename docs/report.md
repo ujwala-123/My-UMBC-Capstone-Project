@@ -1,6 +1,10 @@
 # Content
 ## Capstone Project Spring 2023
 ## Maryland Statewide Vehicle Crashes - predicting severity of injury 
+##### PPT Link
+https://docs.google.com/presentation/d/17EJoGi5BQColZlH2-Ey9Z-YTdrFXzi4u/edit?usp=share_link&ouid=102656629508192105676&rtpof=true&sd=true 
+##### Youtube Link
+https://youtu.be/iIKE01TZOtI
 
 ### Introduction
 The Maryland Statewide Vehicle Crashes dataset, retrieved from https://opendata.maryland.gov/, contains a comprehensive compilation of data on vehicle collisions that occurred in Maryland between 2015 and 2022. This extensive dataset consists of three sub-datasets and provides valuable insights into the causes, locations, and characteristics of these incidents. By analyzing the dataset, I aim to identify patterns, correlations, and risk factors associated with collisions, thereby laying the groundwork for evidence-based decision-making, targeted interventions, and policy recommendations to improve road safety and reduce accidents in Maryland.
@@ -46,15 +50,17 @@ In this dataset, the crashes data is taken vaious counties in Maryland such as '
 ### Cleaning and Preprocessing using Python
 The following steps were performed during the cleaning and preprocessing phase of this project to ensure the quality and usability of the Maryland Statewide Vehicle Crashes dataset:
 1. Missing data: Columns with missing data were identified and incomplete records were removed.
-2. Merging Datasets:\ 
+2. Merging Datasets: 
     a) The vehicles and persons datasets were merged based on the shared identifier 'VEHICLE_ID' in order to consolidate information regarding the vehicles involved and the        individuals affected by the accidents.
     b) The dataset resulting from the previous phase was then merged with the crashes dataset using the common identifier 'REPORT_NO' to create a comprehensive dataset            containing information about the crashes, vehicles, and individuals involved.
 3. After cleaning and preprocessing, the final form of dataset consists of 619,031 records and 22 features and has the shape (619031, 22).
 
 ### Data Visualization using Tableau
-1. Visualized data using Tableau.
-2. Link for my Tableau public account is https://public.tableau.com/app/profile/ujwala.namineni1131 
-3. The frequency of accidents is influenced by various factors such as road surface conditions, weather conditions, county, and road division type. 
+During the analysis phase, Tableau, a powerful data visualization tool, was used to visualize the data. Accessible at https://public.tableau.com/app/profile/ujwala.namineni1131 is the project's Tableau public account, which features interactive visualizations of insights and patterns discovered in the Maryland Statewide Vehicle Crashes dataset.
+
+The dashboards of the visualizations are:
+![Screenshot (177)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/df8a8cb3-59e6-4732-b288-f4234f2c0978)
+
 
 ### Created Machine learning model using Microsoft Azure
 Created machine learning models using machine learning algorithms like multi-class Logistic Regression, Decision Tree, Boosted Decision Tree, and Random Forest. The accuracy of the best model is 80.2% in logistic regression. 
@@ -70,9 +76,3 @@ Overall_Accuracy - 0.8025
 2. Implemented a web page via the 'app.py' file and model is scripted in 'ml_model.py' file.
 3. Integrated the machine learning model into the web page.
 4. Defined a function to predict whether a person is injured or not.
-
-##### PPT Link
-https://docs.google.com/presentation/d/17EJoGi5BQColZlH2-Ey9Z-YTdrFXzi4u/edit?usp=share_link&ouid=102656629508192105676&rtpof=true&sd=true 
-
-##### Youtube Link
-https://youtu.be/iIKE01TZOtI
