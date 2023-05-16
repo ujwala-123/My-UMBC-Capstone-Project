@@ -1,8 +1,19 @@
 # Content
 ## Capstone Project Spring 2023
 ## Maryland Statewide Vehicle Crashes - predicting severity of injury 
-The data we will be working with is the Maryland Statewide Vehicle crashes dataset taken from https://opendata.maryland.gov/. This dataset consists of crashes that occured in the Maryland state from 2015 to 2022. This dataset has three sub-datasets which are:
 
+### Introduction
+The Maryland Statewide Vehicle Crashes dataset, retrieved from https://opendata.maryland.gov/, contains a comprehensive compilation of data on vehicle collisions that occurred in Maryland between 2015 and 2022. This extensive dataset consists of three sub-datasets and provides valuable insights into the causes, locations, and characteristics of these incidents. By analyzing the dataset, I aim to identify patterns, correlations, and risk factors associated with collisions, thereby laying the groundwork for evidence-based decision-making, targeted interventions, and policy recommendations to improve road safety and reduce accidents in Maryland.
+
+### Problem Statement
+This project's objective is to create a machine-learning model capable of reliably predicting the severity of injuries sustained by individuals involved in vehicle collisions in Maryland. Predicting the severity of injuries can considerably improve emergency response planning, resource allocation, and medical interventions. Using the Maryland Statewide Vehicle Crashes dataset, I intend to train a model that can accurately evaluate the various factors and attributes associated with a collision and classify the severity of injuries. This predictive model can provide valuable insights to decision-makers, emergency services, and healthcare providers, allowing them to efficiently prioritize and allocate resources, ultimately resulting in improved medical outcomes and increased road safety in Maryland.
+
+Finally, the major problems need to be solved are:
+1. What are the main factors contributing to vehicle crashes in Maryland, according to the Maryland Statewide Vehicle Crashes dataset?
+2. How accurately can a machine-learning model predict the severity of injuries sustained in vehicle crashes using the Maryland Statewide Vehicle Crashes dataset?
+
+### Datasets
+The three datasets taken are:
 Dataset-1: Maryland Statewide Vehicle Crashes:
 https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes/65du-s3qu
 
@@ -12,7 +23,7 @@ https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes-P
 Dataset-3: Vehicle Details:
 https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes-Vehicle-Details/mhft-5t5y
 
-After merging the given datasets with common column REPORT_NO, the columns of the final dataframe and their types are:\
+After merging the given datasets with common column REPORT_NO and VEHICLE_ID, the columns of the final dataframe and their types are:\
 ACC_DATE            int64\
 ACC_TIME           object\
 WEATHER_DESC       object\
@@ -32,16 +43,15 @@ SPEED_LIMIT         int64\
 YEAR                int64\
 Quarter            object
 
-In this dataset, the crashes data is taken vaious counties in Maryland such as "Prince George's", 'Worcester', 'Montgomery', 'Frederick', 'Calvert', 'Baltimore', 'Baltimore City', 'Washington', 'Howard','Carroll', 'Harford', 'Charles', 'Anne Arundel', 'Somerset', "St. Mary's", 'Dorchester', 'Garrett', "Queen Anne's", 'Kent','Wicomico', 'Caroline', 'Allegany', 'Cecil', 'Talbot'. 
-
-### Problem Statement
-Predicting the severity of the injury after the accident: This project aims to develop a machine-learning model that predicts the severity of injuries sustained by individuals involved in vehicle crashes in Maryland. Predicting the severity by the deployment of the model.
+In this dataset, the crashes data is taken vaious counties in Maryland such as 'Prince George's', 'Worcester', 'Montgomery', 'Frederick', 'Calvert', 'Baltimore', 'Baltimore City', 'Washington', 'Howard','Carroll', 'Harford', 'Charles', 'Anne Arundel', 'Somerset', "St. Mary's", 'Dorchester', 'Garrett', "Queen Anne's", 'Kent','Wicomico', 'Caroline', 'Allegany', 'Cecil', 'Talbot'. 
 
 ### Cleaning and Preprocessing using Python
-1. Used Jupyter Notebook for Cleaning and Preprocessing.
-2. The vehicles and persons datasets are merged on ‘VEHICLE_ID’.
-3. The obtained dataset and crashes dataset are merged on ‘REPORT_NO’.
-4. After preprocessing, the shape of the dataset is (619031, 22).
+The following steps were performed during the cleaning and preprocessing phase of this project to ensure the quality and usability of the Maryland Statewide Vehicle Crashes dataset:
+1. Missing data: Columns with missing data were identified and incomplete records were removed.
+2. Merging Datasets: 
+    a) The vehicles and persons datasets were merged based on the shared identifier 'VEHICLE_ID' in order to consolidate information regarding the vehicles involved and the        individuals affected by the accidents.
+    b) The dataset resulting from the previous phase was then merged with the crashes dataset using the common identifier 'REPORT_NO' to create a comprehensive dataset            containing information about the crashes, vehicles, and individuals involved.
+3. After cleaning and preprocessing, the final form of dataset consists of 619,031 records and 22 features and has the shape (619031, 22).
 
 ### Data Visualization using Tableau
 1. Visualized data using Tableau.
