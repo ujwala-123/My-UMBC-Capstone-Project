@@ -59,11 +59,33 @@ The following steps were performed during the cleaning and preprocessing phase o
 During the analysis phase, Tableau, a powerful data visualization tool, was used to visualize the data. Accessible at https://public.tableau.com/app/profile/ujwala.namineni1131 is the project's Tableau public account, which features interactive visualizations of insights and patterns discovered in the Maryland Statewide Vehicle Crashes dataset.
 
 The dashboards of the visualizations are:
+
 ![Screenshot (177)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/df8a8cb3-59e6-4732-b288-f4234f2c0978)
 
+![Screenshot (178)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/3f1f18a8-d8ef-481c-81bb-814a35ced72d)
+
+From the visualizations, 
+1. In Maryland, vehicle collisions are influenced by road surface types, with more occurring on Dry and Wet roads.
+2. Clear, Rainy, and cloudy weather conditions contribute to a more number of accidents in Maryland.
+3. Counties such as Anne Arundel, Baltimore, Baltimore City, Montgomery, and Prince George's have a greater crash rate.
+4. For every kind of injury severity, the gender distribution is almost the same.
+5. The average age, accident quarter, and speed limit have little to no effect on the severity or frequency of vehicle crashes.
 
 ### Created Machine learning model using Microsoft Azure
-Created machine learning models using machine learning algorithms like multi-class Logistic Regression, Decision Tree, Boosted Decision Tree, and Random Forest. The accuracy of the best model is 80.2% in logistic regression. 
+In this project, created machine learning models using Azure Machine Learning model Studio, including multi-class Logistic Regression, Decision Tree, Boosted Decision Tree, and Random Forest, were used to develop machine learning models. 
+For example,
+The Boosted Decision Tree algorithm has accuracy of 77.60%.
+The obtained metrics are:
+Macro_Precision - 0.2743
+Macro_Recall - 0.2138
+Micro_Precision - 0.7760
+Micro_Recall - 0.7760
+Overall_Accuracy - 0.7760
+
+![Screenshot (160)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/17010273-bb2e-48b2-ac0c-0777b8f9dce8)
+
+
+The logistic regression model obtained the highest accuracy of 80.2% among these models.
 The obtained metrics are:
 Macro_Precision - 0.3648
 Macro_Recall - 0.2316
@@ -71,8 +93,21 @@ Micro_Precision - 0.8025
 Micro_Recall - 0.8025
 Overall_Accuracy - 0.8025
 
+![Screenshot (158)](https://github.com/ujwala-123/Ujwala_Data606/assets/72090397/4d5ffd4a-2315-4b90-a05e-2800118d61ae)
+
+
+These metrics provide valuable insight into the performance of the model in predicting the severity of injuries sustained in vehicle crashes. The high accuracy of the logistic regression model suggests that it possesses promising predictive capabilities. To obtain a comprehensive understanding of the model's performance across various classes and as a whole, it is essential to consider evaluation metrics, such as precision, recall, and accuracy.
+
 ### Deployment using Streamlit
-1. Developed a web application using Streamlit and Python.
-2. Implemented a web page via the 'app.py' file and model is scripted in 'ml_model.py' file.
-3. Integrated the machine learning model into the web page.
-4. Defined a function to predict whether a person is injured or not.
+The project required the deploying of a web application using Streamlit and Python, with a web page implemented in the 'app.py' file and a machine learning model scripted in the 'ml_model.py' file attached in 'src'. The integration of the machine learning model into the website enabled a prediction of the severity of injuries sustained in vehicle crashes.
+
+### Conclusion
+In conclusion, the analysis of the Maryland Statewide Vehicle Crashes dataset reveals that road surface types, weather conditions, and particular counties have significant effects on the occurrence and frequency of vehicle collisions in Maryland. Variables such as average age, accident quarter, and speed limit have a negligible to nonexistent effect on the severity or frequency of vehicle collisions, whereas the distribution of injuries by gender remains constant across all levels of severity. 
+
+Developed machine learning models, especially logistic regression model with 80.2% accuracy, have significant potential for incorporation into a web application. Users can take advantage of the web app's prediction skills to determine the severity of injuries sustained in vehicle crashes by integrating the trained model into the app's backend.
+
+Thereby, these insights can inform targeted interventions and policies designed to reduce accidents and through web app, people enhance their knowledge of the potential severity of injuries resulting from vehicle crashes in Maryland.
+
+### Future Scope
+Develop web application using Azure web services for more scalability, reliability and ability to integrate with other Azure services.
+
