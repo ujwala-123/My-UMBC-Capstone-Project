@@ -13,13 +13,11 @@ Finally, the major problems need to be solved are:
 2. How accurately can a machine-learning model predict the severity of injuries sustained in vehicle crashes using the Maryland Statewide Vehicle Crashes dataset?
 
 ### Datasets
-The three datasets taken are:
+The three datasets taken are:\
 Dataset-1: Maryland Statewide Vehicle Crashes:
 https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes/65du-s3qu
-
 Dataset-2: Person Details:
 https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes-Person-Details-/py4c-dicf
-
 Dataset-3: Vehicle Details:
 https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes-Vehicle-Details/mhft-5t5y
 
@@ -48,7 +46,7 @@ In this dataset, the crashes data is taken vaious counties in Maryland such as '
 ### Cleaning and Preprocessing using Python
 The following steps were performed during the cleaning and preprocessing phase of this project to ensure the quality and usability of the Maryland Statewide Vehicle Crashes dataset:
 1. Missing data: Columns with missing data were identified and incomplete records were removed.
-2. Merging Datasets: 
+2. Merging Datasets:\ 
     a) The vehicles and persons datasets were merged based on the shared identifier 'VEHICLE_ID' in order to consolidate information regarding the vehicles involved and the        individuals affected by the accidents.
     b) The dataset resulting from the previous phase was then merged with the crashes dataset using the common identifier 'REPORT_NO' to create a comprehensive dataset            containing information about the crashes, vehicles, and individuals involved.
 3. After cleaning and preprocessing, the final form of dataset consists of 619,031 records and 22 features and has the shape (619031, 22).
