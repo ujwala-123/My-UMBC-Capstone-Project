@@ -1,10 +1,6 @@
 # Content
 ## Capstone Project Spring 2023
 ## Maryland Statewide Vehicle Crashes - predicting severity of injury 
-##### PPT Link
-https://docs.google.com/presentation/d/17EJoGi5BQColZlH2-Ey9Z-YTdrFXzi4u/edit?usp=share_link&ouid=102656629508192105676&rtpof=true&sd=true 
-##### Youtube Link
-https://youtu.be/iIKE01TZOtI
 
 ### Introduction
 The Maryland Statewide Vehicle Crashes dataset, retrieved from https://opendata.maryland.gov/, contains a comprehensive compilation of data on vehicle collisions that occurred in Maryland between 2015 and 2022. This extensive dataset consists of three sub-datasets and provides valuable insights into the causes, locations, and characteristics of these incidents. By analyzing the dataset, I aim to identify patterns, correlations, and risk factors associated with collisions, thereby laying the groundwork for evidence-based decision-making, targeted interventions, and policy recommendations to improve road safety and reduce accidents in Maryland.
@@ -112,4 +108,9 @@ Thereby, these insights can inform targeted interventions and policies designed 
 1. Building a machine learning model with more accuracy by tuning hyperparameters.
 2. Developing web application using Azure web services for more scalability, reliability and ability to integrate with other Azure services.
 3. Developing a mobile application for real-time prediction and alerts.
+
+##### PPT Link
+https://docs.google.com/presentation/d/17EJoGi5BQColZlH2-Ey9Z-YTdrFXzi4u/edit?usp=share_link&ouid=102656629508192105676&rtpof=true&sd=true 
+##### Youtube Link
+https://youtu.be/iIKE01TZOtI
 
