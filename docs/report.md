@@ -1,6 +1,6 @@
 # Content
 ## Capstone Project Spring 2023
-## Maryland Statewide Vehicle Crashes - predicting severity of injury 
+## Maryland Statewide Vehicle Crashes - predicting severity of the injury 
 
 ### Introduction
 The Maryland Statewide Vehicle Crashes dataset, retrieved from https://opendata.maryland.gov/, contains a comprehensive compilation of data on vehicle collisions that occurred in Maryland between 2015 and 2022. This extensive dataset consists of three sub-datasets and provides valuable insights into the causes, locations, and characteristics of these incidents. By analyzing the dataset, I aim to identify patterns, correlations, and risk factors associated with collisions, thereby laying the groundwork for evidence-based decision-making, targeted interventions, and policy recommendations to improve road safety and reduce accidents in Maryland.
